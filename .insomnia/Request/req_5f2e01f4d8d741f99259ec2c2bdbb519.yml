@@ -1,0 +1,24 @@
+_id: req_5f2e01f4d8d741f99259ec2c2bdbb519
+type: Request
+parentId: fld_3f4f423a859b40228a365afd2d1a506e
+modified: 1604599125126
+created: 1604432877983
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/Account/describe
+name: get carrier service by id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ token }}"
+  prefix: "Bearer "
+metaSortKey: -1604519039043
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

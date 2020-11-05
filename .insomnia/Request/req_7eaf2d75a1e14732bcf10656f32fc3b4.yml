@@ -1,0 +1,39 @@
+_id: req_7eaf2d75a1e14732bcf10656f32fc3b4
+type: Request
+parentId: wrk_23593bea1db347b9859adb43a03183f0
+modified: 1604599191180
+created: 1604409495012
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/query
+name: getAllModes
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: q
+    value: SELECT id, name from rtms__Mode__c where rtms__Enabled__c=true
+    disabled: false
+    id: pair_141dac2b88d84d58970afaded82e92bd
+    type: text
+    multiline: true
+headers:
+  - name: authorization
+    value: Bearer
+      00D1I000000ndNf!ARMAQAU_c2EiZWsv1bTxKPTZhW1etjRofUxaq8ysoSOwIdTyOHJkP6oEwzHE8h.JkIvoFLQ7NL8iW.9wwkZYL.bNjhVt6dZx
+    id: pair_b3c16e62f4ad43e1bc2f5fe04c530572
+    disabled: true
+  - name: Cookie
+    value: BrowserId=TAJuuBh1EeutOSchxJ5Sjg
+    id: pair_c05a6f6c7553453abde70ad95144b2d7
+    disabled: true
+authentication:
+  type: bearer
+  token: 00D1I000000ndNf!ARMAQAU_c2EiZWsv1bTxKPTZhW1etjRofUxaq8ysoSOwIdTyOHJkP6oEwzHE8h.JkIvoFLQ7NL8iW.9wwkZYL.bNjhVt6dZx
+  prefix: Bearer
+metaSortKey: -1604409495012
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,46 @@
+_id: req_7bfae6a92a154d08b8e60ab4b6197dae
+type: Request
+parentId: fld_c399781b9fd748d1b32edf65d4c544dd
+modified: 1604599066759
+created: 1604520233500
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/rtms__Stop__c
+name: create stop
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    
+
+    {
+    	"rtms__Load__c": "a0j3s00000DTVvBAAX",
+    	"Name": "stop 11",
+    	"rtms__Number__c": 7,
+    	"rtms__Location2__c": "0013s000012O80yAAC",
+    	"rtms__Shipping_Receiving_Contact__c": "",
+    	"rtms__Shipping_Receiving_Hours__c": "09:00-17:00",
+    	"rtms__Expected_Date__c": "2020-10-30",
+    	"rtms__Appointment_Required__c": true,
+    	"rtms__Appointment_Time__c": "",
+    	"rtms__References__c": "exa reference",
+    	"rtms__Instructions__c": "exa istructions",
+    	"rtms__Is_Dropoff__c": true,
+    	"rtms__Is_Pickup__c": false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_65a6d59798ab4c8eba1aeea4ea9a657a
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{{ token }}"
+metaSortKey: -1604591421887
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

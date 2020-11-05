@@ -1,0 +1,24 @@
+_id: req_e53c41c391934ec1a4a33d466f0fb637
+type: Request
+parentId: fld_c399781b9fd748d1b32edf65d4c544dd
+modified: 1604599080317
+created: 1604523571896
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/rtms__Stop__c/a0t3s000003SWYWAA4
+name: Delete stop
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{{ token }}"
+metaSortKey: -1604591421937
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

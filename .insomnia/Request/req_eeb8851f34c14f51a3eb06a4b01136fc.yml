@@ -1,0 +1,32 @@
+_id: req_eeb8851f34c14f51a3eb06a4b01136fc
+type: Request
+parentId: fld_c399781b9fd748d1b32edf65d4c544dd
+modified: 1604599094726
+created: 1604418854699
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/rtms__Stop__c/a0t3s000003SJkEAAW
+name: Get Stop By Id
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_afe8ed235b054ee192d861743c4e0a96
+headers:
+  - name: Authorization
+    value: Bearer
+      00D1I000000ndNf!ARMAQAU_c2EiZWsv1bTxKPTZhW1etjRofUxaq8ysoSOwIdTyOHJkP6oEwzHE8h.JkIvoFLQ7NL8iW.9wwkZYL.bNjhVt6dZx
+    id: pair_7cfef456419d4a92acb5305e2fb72bbd
+  - name: Cookie
+    value: BrowserId=TAJuuBh1EeutOSchxJ5Sjg
+    id: pair_b2ba44615ec64a3da50cc1973db6c412
+authentication: {}
+metaSortKey: -1604591421862
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

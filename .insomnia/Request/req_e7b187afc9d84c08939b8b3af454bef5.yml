@@ -1,0 +1,24 @@
+_id: req_e7b187afc9d84c08939b8b3af454bef5
+type: Request
+parentId: fld_e2273fb87a44459482e24439af7480f8
+modified: 1604617948100
+created: 1604606098290
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/Account/0013s000012OCkLAAW
+name: Delete Account
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ token }}"
+  prefix: Bearer
+metaSortKey: -1604606098290
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

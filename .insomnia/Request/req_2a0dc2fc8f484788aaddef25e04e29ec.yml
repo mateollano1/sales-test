@@ -1,0 +1,36 @@
+_id: req_2a0dc2fc8f484788aaddef25e04e29ec
+type: Request
+parentId: fld_85078d8ce1614b2aa496d6a33623cc7b
+modified: 1604617810432
+created: 1604617521323
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/Contact
+name: create contact
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"AccountId": "0013s000012OCkLAAW",
+    	"FirstName": "Guane",
+    	"LastName": "Doe",
+    	"Phone": "555 44 55",
+    	"Email": "guane@test.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_58d8968619194feabf5dc3d8a454600f
+authentication:
+  type: bearer
+  token: "{{ token }}"
+  prefix: Bearer
+metaSortKey: -1604617521390
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

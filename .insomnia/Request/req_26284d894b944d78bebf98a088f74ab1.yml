@@ -1,0 +1,33 @@
+_id: req_26284d894b944d78bebf98a088f74ab1
+type: Request
+parentId: fld_c399781b9fd748d1b32edf65d4c544dd
+modified: 1604599090786
+created: 1604420022017
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/rtms__Stop__c/a0t3s000003SJkEAAW
+name: Put Stop By Id
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"Name": "stop 1",
+    	"rtms__Appointment_Required__c": false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_91d5a281ceb54535b5d266ad4f881596
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{{ token }}"
+metaSortKey: -1604591421837
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

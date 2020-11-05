@@ -1,0 +1,26 @@
+_id: req_e462b98cc2144aa58c074a1cad0b4e8d
+type: Request
+parentId: fld_b2d7004140444c97845b80f65a7762b7
+modified: 1604618132657
+created: 1604418756233
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/rtms__Load__c/a0j3s00000DKIpFAAX
+name: get Load By Id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: authorization
+    value: Bearer
+      00D1I000000ndNf!ARMAQAU_c2EiZWsv1bTxKPTZhW1etjRofUxaq8ysoSOwIdTyOHJkP6oEwzHE8h.JkIvoFLQ7NL8iW.9wwkZYL.bNjhVt6dZx
+  - name: Cookie
+    value: BrowserId=TAJuuBh1EeutOSchxJ5Sjg
+authentication: {}
+metaSortKey: -1604501272194.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

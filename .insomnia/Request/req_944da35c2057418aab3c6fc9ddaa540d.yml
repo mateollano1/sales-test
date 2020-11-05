@@ -1,0 +1,36 @@
+_id: req_944da35c2057418aab3c6fc9ddaa540d
+type: Request
+parentId: fld_3f4f423a859b40228a365afd2d1a506e
+modified: 1604599119961
+created: 1604519039093
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/query
+name: get new carrier quote
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: q
+    value: SELECT id,name,
+      rtms__Carrier_Service__r.id,rtms__Carrier_Service__r.Name  from
+      rtms__CarrierQuote__c where rtms__Load__c='a0j3s00000DTVvBAAX'
+    disabled: false
+    id: pair_53fd70fb1f7b4e17a114fb3e8ff0a322
+    type: text
+    multiline: true
+headers:
+  - name: Authorization
+    value: Bearer
+      00D1I000000ndNf!ARMAQAU_c2EiZWsv1bTxKPTZhW1etjRofUxaq8ysoSOwIdTyOHJkP6oEwzHE8h.JkIvoFLQ7NL8iW.9wwkZYL.bNjhVt6dZx
+    id: pair_8a5c6f262b364a978d788da232b83f79
+  - name: Cookie
+    value: BrowserId=ykC9xxlfEeuBsMVX-Ogn0g
+    id: pair_d7c678e1381d40898843a0b3184cff23
+authentication: {}
+metaSortKey: -1604519039093
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,24 @@
+_id: req_45eb5f23da5443afb296ceddccef46f0
+type: Request
+parentId: fld_85078d8ce1614b2aa496d6a33623cc7b
+modified: 1604617341607
+created: 1604617307824
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/Contact/describe
+name: contact Describe
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ token }}"
+  prefix: Bearer
+metaSortKey: -1604617307881
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

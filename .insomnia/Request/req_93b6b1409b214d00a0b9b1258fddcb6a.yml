@@ -1,0 +1,40 @@
+_id: req_93b6b1409b214d00a0b9b1258fddcb6a
+type: Request
+parentId: fld_e2273fb87a44459482e24439af7480f8
+modified: 1604608309548
+created: 1604409112667
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/query
+name: getAccountsByName
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: q
+    value: "SELECT Id, Name, BillingAddress, ShippingAddress FROM Account WHERE Name
+      LIKE 'TEST GUANE' AND rtms__TMS_Type__c!='Carrier (Ground)' "
+    disabled: false
+    id: pair_52f8ac8e26054b638a8a463c5dd77ed5
+    type: text
+    multiline: true
+headers:
+  - name: authorization
+    value: Bearer
+      00D1I000000ndNf!ARMAQNKFPoFaAUv4YW7NBl6QcyqQsvqCbAiXMbTb2u_M0UVD4N5V2w8CYgy8GT82BLBoLHgiSABfuTOVn6C51Ij7Ud4WICQj
+    id: pair_0a0c73b4d971416b8b82e4b834dd5fae
+    disabled: true
+  - name: Cookie
+    value: BrowserId=EgYcOuJREeqH6NmnhaQ6Xg; QCQQ=Tf879oleHGS
+    id: pair_4178afe0ce4145aeb7230eebf0178304
+    disabled: true
+authentication:
+  type: bearer
+  token: "{{ token }}"
+  prefix: Bearer
+metaSortKey: -1604601832128
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

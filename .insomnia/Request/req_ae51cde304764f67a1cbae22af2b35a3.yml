@@ -1,0 +1,30 @@
+_id: req_ae51cde304764f67a1cbae22af2b35a3
+type: Request
+parentId: fld_3f4f423a859b40228a365afd2d1a506e
+modified: 1604599127634
+created: 1604432289076
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/query
+name: get carrier service
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: q
+    value: SELECT id, name from rtms__CarrierService__c
+    description: ""
+    id: pair_bac45a322fdc4b46b4915e4ad56844ea
+    type: text
+    multiline: true
+headers: []
+authentication:
+  type: bearer
+  token: "{{ token }}"
+  prefix: Bearer
+metaSortKey: -1604519039068
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

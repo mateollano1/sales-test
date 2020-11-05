@@ -1,0 +1,37 @@
+_id: req_8cbcfbbdc74143458b11e0ac489dc250
+type: Request
+parentId: fld_e2273fb87a44459482e24439af7480f8
+modified: 1604605954786
+created: 1604604540541
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/Account
+name: create account
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"Name": "TEST GUANE",
+    	"ShippingCountry": "United States",
+    	"ShippingStreet": "1258 SW 120 Ave",
+    	"ShippingCity": "Miami",
+    	"ShippingState": "Florida",
+    	"ShippingPostalCode": "33122"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_519f5d20c43845d787d81beeb4e54ab7
+authentication:
+  type: bearer
+  token: "{{ token }}"
+  prefix: Bearer
+metaSortKey: -1604604540541
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
