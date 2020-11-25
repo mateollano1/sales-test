@@ -1,10 +1,10 @@
-_id: req_ae51cde304764f67a1cbae22af2b35a3
+_id: req_c9a536bff7da4aa894008ebc0d8417d8
 type: Request
 parentId: fld_63b711ca8f1f4b549eeba4f2edffb7ed
-modified: 1605821176535
-created: 1604432289076
+modified: 1605645808904
+created: 1605644234899
 url: https://gltlogistics.my.salesforce.com/services/data/v49.0/query
-name: get carrier service
+name: get carrier service 2
 description: ""
 method: GET
 body: {}
@@ -14,22 +14,11 @@ parameters:
       rtms__Minimum_Carrier_Quote__c,
       rtms__Maximum_Carrier_Quote__c,rtms__Maximum_Markup_Amount__c,rtms__Minimum_Markup_Amount__c,
       rtms__Target_Markup_Percent__c FROM rtms__Carrier_Markups__r
-      WHERE  rtms__Carrier_Markup_Group__c='a281I000000f7HUQAY'), (SELECT Id,
-      Name FROM rtms__Carrier_Quotes__r), (SELECT Id from
-      rtms__Carrier_Liability_Limits__r Limit 5) from rtms__CarrierService__c
-      where Id = 'a0F1I000000YcDIUA0'
+      WHERE  rtms__Carrier_Markup_Group__c='a281I000000f7HUQAY') from
+      rtms__CarrierService__c where Id IN
+      ('a0F1I000000YcDIUA0','a0F1I000000YcDvUAK','a0F1I000000YcDIUA0')
     description: ""
     id: pair_bac45a322fdc4b46b4915e4ad56844ea
-    type: text
-    multiline: true
-    disabled: true
-  - name: q
-    value: SELECT id, Name, (SELECT Id, Name, rtms__NMFC_Class__c,
-      rtms__Commodity_Condition__c, rtms__Rate__c, rtms__Maximum_Liability__c
-      from rtms__Carrier_Liability_Limits__r) from rtms__CarrierService__c where
-      Id = 'a0F1I000000YcDIUA0'
-    description: ""
-    id: pair_a9014b4bc6964cb2b1978427abeec21f
     type: text
     multiline: true
 headers: []
@@ -37,7 +26,7 @@ authentication:
   type: bearer
   token: "{{ token }}"
   prefix: Bearer
-metaSortKey: -1604600459719
+metaSortKey: -1604600459694
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

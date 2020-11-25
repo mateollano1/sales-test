@@ -1,10 +1,10 @@
-_id: req_5f2e01f4d8d741f99259ec2c2bdbb519
+_id: req_141cb35163124df6bf59e725a732af0f
 type: Request
-parentId: fld_3f4f423a859b40228a365afd2d1a506e
-modified: 1604599125126
-created: 1604432877983
-url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/Account/describe
-name: get carrier service by id
+parentId: fld_39bf77065bbf4e22902746b762844937
+modified: 1605279879493
+created: 1605277082177
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/rtms__LineItem__c/describe
+name: describe line item
 description: ""
 method: GET
 body: {}
@@ -13,8 +13,8 @@ headers: []
 authentication:
   type: bearer
   token: "{{ token }}"
-  prefix: "Bearer "
-metaSortKey: -1604519039043
+  prefix: Bearer
+metaSortKey: -1605277082177
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,0 +1,31 @@
+_id: req_73f1120ba94e4ed194b84a027f9e9fff
+type: Request
+parentId: fld_3f4f423a859b40228a365afd2d1a506e
+modified: 1605634695113
+created: 1605634328824
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/query
+name: get markup
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: q
+    value: SELECT Id, Name FROM rtms__CarrierMarkup__c where
+      rtms__CarrierService__r='a0E3s00000IvCOyEAN'
+    description: ""
+    id: pair_203e73f6dcf64866a94b37628db7e34f
+    type: text
+    multiline: true
+headers: []
+authentication:
+  type: bearer
+  token: "{{ token }}"
+  prefix: Bearer
+metaSortKey: -1605129501350.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

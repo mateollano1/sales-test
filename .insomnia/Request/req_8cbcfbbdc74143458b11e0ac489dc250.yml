@@ -1,7 +1,7 @@
 _id: req_8cbcfbbdc74143458b11e0ac489dc250
 type: Request
 parentId: fld_e2273fb87a44459482e24439af7480f8
-modified: 1604605954786
+modified: 1605709521889
 created: 1604604540541
 url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/Account
 name: create account
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"Name": "TEST GUANE",
-    	"ShippingCountry": "United States",
+    	"ShippingCountry": "Canada",
     	"ShippingStreet": "1258 SW 120 Ave",
     	"ShippingCity": "Miami",
     	"ShippingState": "Florida",

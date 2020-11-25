@@ -1,7 +1,7 @@
 _id: req_9616ce83edbd43d2b0b38b48f3239eec
 type: Request
 parentId: wrk_23593bea1db347b9859adb43a03183f0
-modified: 1604409270248
+modified: 1605016722239
 created: 1604409181682
 url: https://login.salesforce.com/services/Soap/c/42.0
 name: login
@@ -19,8 +19,8 @@ body:
     </soapenv:Header>
     <soapenv:Body>
     <urn:login>
-    <urn:username>bcabrera@shipwithglt.com</urn:username>
-    <urn:password>revenova33166</urn:password>
+    <urn:username>charlie@shipwithglt.com</urn:username>
+    <urn:password>hypercubes2020</urn:password>
     </urn:login>
     </soapenv:Body>
     </soapenv:Envelope>
@@ -28,10 +28,13 @@ parameters: []
 headers:
   - name: Content-Type
     value: text/xml
+    id: pair_25d02e929e7c4d86bd83c8c0da622a26
   - name: SOAPAction
     value: '""'
+    id: pair_54d784be43d04fc88b8b9e5e473b8897
   - name: Cookie
     value: BrowserId=IvBDgM3ZEeqhO5OWBkqGpQ; BrowserId=TAJuuBh1EeutOSchxJ5Sjg
+    id: pair_a277e8431f154ad7ac91f217684be0b1
 authentication: {}
 metaSortKey: -1604409181682
 isPrivate: false

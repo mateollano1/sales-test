@@ -1,0 +1,22 @@
+_id: req_dce0afea73ab4e3491887e62a472adde
+type: Request
+parentId: fld_c399781b9fd748d1b32edf65d4c544dd
+modified: 1605114637032
+created: 1605030449174
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/rtms__Stop__c/a0t3s000003SJkEAAW
+name: get complete stop
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+metaSortKey: -1605030449174
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

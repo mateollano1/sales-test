@@ -1,35 +1,37 @@
-_id: req_e462b98cc2144aa58c074a1cad0b4e8d
+_id: req_d9fc1e93cfdc493d919bd57841b46455
 type: Request
-parentId: fld_b2d7004140444c97845b80f65a7762b7
-modified: 1606146211812
-created: 1604418756233
+parentId: fld_3f4f423a859b40228a365afd2d1a506e
+modified: 1605641416379
+created: 1605133741515
 url: https://gltlogistics.my.salesforce.com/services/data/v49.0/query
-name: get Load By Id
+name: Get Carrier Quote 2
 description: ""
 method: GET
 body: {}
 parameters:
   - name: q
-    value: SELECT Id,rtms__CarrierQuote__c FROM rtms__Load__c WHERE Id =
-      'a0j3s00000DUEn9AAH'
-    description: ""
-    id: pair_064fb0e8303e4812b418deb20a49bf68
+    value: SELECT Id, Name,rtms__Carrier_Service__r.Id,
+      rtms__Carrier_Service__r.Name, (SELECT Id, Name, rtms__Charge__c,
+      CurrencyIsoCode FROM rtms__Carrier_Quote_Accessorials__r) FROM
+      rtms__CarrierQuote__c WHERE rtms__Load__c='a0j3s00000DTYhYAAX'
+    disabled: false
+    id: pair_2e81f61283d74eb8bf949e6604c61cbe
     type: text
     multiline: true
 headers:
   - name: authorization
     value: Bearer
       00D1I000000ndNf!ARMAQAU_c2EiZWsv1bTxKPTZhW1etjRofUxaq8ysoSOwIdTyOHJkP6oEwzHE8h.JkIvoFLQ7NL8iW.9wwkZYL.bNjhVt6dZx
-    id: pair_006deff6c0da4a4a87db12b7be7d96f3
+    id: pair_4ca2665b45714c7687e5fff2cc63860b
     disabled: true
   - name: Cookie
     value: BrowserId=TAJuuBh1EeutOSchxJ5Sjg
-    id: pair_d05d8243967744e1a6954ed52fe68f04
+    id: pair_7f67c27b9c6640a8b1db2f12110b9925
 authentication:
   type: bearer
   token: "{{ token }}"
   prefix: Bearer
-metaSortKey: -1604501272194.5
+metaSortKey: -1604510155568.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

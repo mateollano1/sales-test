@@ -1,10 +1,10 @@
-_id: req_8742f1e3e9854a0a9a34a3619b5cf0ff
+_id: req_f99a4a21508c475aad0531db58dbcb3d
 type: Request
-parentId: fld_3f4f423a859b40228a365afd2d1a506e
-modified: 1605633776152
-created: 1604430803949
-url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/rtms__CarrierQuote__c/describe
-name: Describe carrier_quote
+parentId: fld_f33d8dbc82fc4d2eac5f2de80f477117
+modified: 1605821019932
+created: 1605820940151
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/rtms__CarrierLiabilityLimit__c/describe
+name: carrier liability
 description: ""
 method: GET
 body: {}
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   token: "{{ token }}"
   prefix: Bearer
-metaSortKey: -1604519038993
+metaSortKey: -1605820940151
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

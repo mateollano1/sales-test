@@ -1,7 +1,7 @@
 _id: req_af091110fc6342258d468b60196f63e5
 type: Request
 parentId: fld_85078d8ce1614b2aa496d6a33623cc7b
-modified: 1604618083589
+modified: 1605050042635
 created: 1604583788056
 url: https://gltlogistics.my.salesforce.com/services/data/v49.0/query
 name: get contacts by account
@@ -13,6 +13,8 @@ parameters:
     value: SELECT id, name from rtms__CarrierService__c
     description: ""
     id: pair_b85c25e0942745fa9e077c9235399843
+    type: text
+    multiline: true
 headers: []
 authentication: {}
 metaSortKey: -1604617414635.5

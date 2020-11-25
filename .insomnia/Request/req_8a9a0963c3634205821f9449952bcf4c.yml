@@ -1,7 +1,7 @@
 _id: req_8a9a0963c3634205821f9449952bcf4c
 type: Request
 parentId: fld_85078d8ce1614b2aa496d6a33623cc7b
-modified: 1604618088836
+modified: 1605050061255
 created: 1604584827959
 url: https://gltlogistics.my.salesforce.com/services/data/v49.0/query
 name: get contacts by account id
@@ -10,7 +10,7 @@ method: GET
 body: {}
 parameters:
   - name: q
-    value: SELECT Name, Id FROM Contact WHERE AccountId = '0011I00000FpvKUQAZ'
+    value: SELECT Name, Id FROM Contact WHERE AccountId = '0011I00000nLomEQAS'
     disabled: false
     id: pair_52f8ac8e26054b638a8a463c5dd77ed5
     type: text

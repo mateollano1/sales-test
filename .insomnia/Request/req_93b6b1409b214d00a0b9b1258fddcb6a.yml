@@ -1,7 +1,7 @@
 _id: req_93b6b1409b214d00a0b9b1258fddcb6a
 type: Request
 parentId: fld_e2273fb87a44459482e24439af7480f8
-modified: 1604608309548
+modified: 1605115204122
 created: 1604409112667
 url: https://gltlogistics.my.salesforce.com/services/data/v49.0/query
 name: getAccountsByName
