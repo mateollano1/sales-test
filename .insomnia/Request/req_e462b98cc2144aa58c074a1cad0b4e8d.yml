@@ -1,7 +1,7 @@
 _id: req_e462b98cc2144aa58c074a1cad0b4e8d
 type: Request
 parentId: fld_b2d7004140444c97845b80f65a7762b7
-modified: 1606146211812
+modified: 1606830399211
 created: 1604418756233
 url: https://gltlogistics.my.salesforce.com/services/data/v49.0/query
 name: get Load By Id
@@ -10,8 +10,10 @@ method: GET
 body: {}
 parameters:
   - name: q
-    value: SELECT Id,rtms__CarrierQuote__c FROM rtms__Load__c WHERE Id =
-      'a0j3s00000DUEn9AAH'
+    value: SELECT Id,rtms__Carrier_Bill_To__r.Name, Service_Class__c,
+      rtms__Document_Options__r.Name, rtms__Carrier__r.Name,
+      rtms__Customer_Load__c, rtms__Customer__r.Name FROM rtms__Load__c WHERE Id
+      = 'a0j3s00000DUZl7AAH'
     description: ""
     id: pair_064fb0e8303e4812b418deb20a49bf68
     type: text

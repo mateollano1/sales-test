@@ -1,9 +1,9 @@
 _id: req_26284d894b944d78bebf98a088f74ab1
 type: Request
 parentId: fld_c399781b9fd748d1b32edf65d4c544dd
-modified: 1605285773556
+modified: 1610203485536
 created: 1604420022017
-url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/rtms__Stop__c/a0t3s000003SpGkAAK
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/rtms__Stop__c/a0t3s000003TkjjAAC
 name: Put Stop By Id
 description: ""
 method: PATCH
@@ -11,10 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"rtms__Departure_Date__c": "2020-12-24",
-    	"rtms__Stop_Status__c": "Departed"
-    	
-    }
+    	"rtms__Location2__c": null,
+    	"rtms__Shipping_Receiving_Contact__c": null
+    } 
 parameters: []
 headers:
   - name: Content-Type

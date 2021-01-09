@@ -1,9 +1,9 @@
 _id: req_150ecf53fc7740fc8e8f4199f9a70839
 type: Request
 parentId: fld_3f4f423a859b40228a365afd2d1a506e
-modified: 1605126907205
+modified: 1607701072982
 created: 1605027460321
-url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/rtms__CarrierQuote__c/a0E3s00000IfcOIEAZ
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/rtms__CarrierQuote__c/a0E3s00000JLq8LEAT
 name: get complete carrier quote
 description: ""
 method: GET

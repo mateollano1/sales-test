@@ -1,0 +1,28 @@
+_id: req_52ff09f2209b4608b64cab11b570e022
+type: Request
+parentId: fld_bfebf9f264a7498fb2d70f368ee23fcc
+modified: 1607349990015
+created: 1607349495111
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/rtms__DocumentOptions__c/describe
+name: Describe Document Options
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_1207a834a47044c489813e0e97fcdebe
+headers: []
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{{ token }}"
+metaSortKey: -1607349495111
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,10 +1,10 @@
-_id: req_e339b69b9eb441fc83e50ed30f538762
+_id: req_bce66c27c35a4caca2e17d1cad2a3782
 type: Request
-parentId: fld_b2d7004140444c97845b80f65a7762b7
-modified: 1607700944768
-created: 1604691439027
-url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/rtms__Load__c/a0j3s00000DVSnDAAX
-name: get load 2
+parentId: fld_58ac2a9b91c54ade8caeb798f65589d3
+modified: 1606922750349
+created: 1606853142403
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/rtms__CustomerQuote__c/describe
+name: Describe Customer
 description: ""
 method: GET
 body: {}
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   token: "{{ token }}"
   prefix: Bearer
-metaSortKey: -1604691439027
+metaSortKey: -1606853142458
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

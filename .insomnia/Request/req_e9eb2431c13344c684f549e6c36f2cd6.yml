@@ -1,20 +1,19 @@
-_id: req_d287a26cc2ed4b7985b4cc26432e8e76
+_id: req_e9eb2431c13344c684f549e6c36f2cd6
 type: Request
-parentId: fld_e2273fb87a44459482e24439af7480f8
-modified: 1607370704592
-created: 1604948605245
+parentId: fld_bfebf9f264a7498fb2d70f368ee23fcc
+modified: 1607530540181
+created: 1607349945276
 url: https://gltlogistics.my.salesforce.com/services/data/v49.0/query
-name: get account by id
+name: get Documents
 description: ""
 method: GET
 body: {}
 parameters:
   - name: q
-    value: SELECT Id, Name, ShippingAddress,
-      rtms__Transportation_Profile__r.rtms__Receiving_Hours__c FROM Account
-      WHERE Id = '0011I000004moufQAA'
+    value: SELECT Id, Name FROM rtms__DocumentOptions__c WHERE
+      rtms__Default_Carrier_Bill_To__c = '0011I00000H8o4CQAR' ORDER BY Name
     description: ""
-    id: pair_0e5c101472fc4f1baa5aac8510fcea4c
+    id: pair_9b598c4cff3945c79eeeaeb3b1938420
     type: text
     multiline: true
 headers: []
@@ -22,7 +21,7 @@ authentication:
   type: bearer
   token: "{{ token }}"
   prefix: Bearer
-metaSortKey: -1604948605245
+metaSortKey: -1607349945276
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

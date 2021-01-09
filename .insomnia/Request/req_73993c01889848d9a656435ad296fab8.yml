@@ -1,0 +1,29 @@
+_id: req_73993c01889848d9a656435ad296fab8
+type: Request
+parentId: fld_b2d7004140444c97845b80f65a7762b7
+modified: 1607630133448
+created: 1607629754443
+url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/rtms__Load__c/a0j1I000004nPByQAM
+name: patch load
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: '{"rtms__Load_Status__c":"Assigned"}'
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1a2654dd2e894064af6f4f52d2566f31
+authentication:
+  type: bearer
+  token: "{{ token }}"
+  prefix: Bearer
+metaSortKey: -1607629754443
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

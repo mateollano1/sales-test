@@ -1,10 +1,10 @@
-_id: req_e339b69b9eb441fc83e50ed30f538762
+_id: req_550c1d30e2c84f12bac0d7a9e95bfb77
 type: Request
 parentId: fld_b2d7004140444c97845b80f65a7762b7
-modified: 1607700944768
-created: 1604691439027
-url: https://gltlogistics.my.salesforce.com/services/data/v49.0/sobjects/rtms__Load__c/a0j3s00000DVSnDAAX
-name: get load 2
+modified: 1607527917624
+created: 1607527803473
+url: https://gltlogistics.my.salesforce.com/apex/LoadTender
+name: load visualforce
 description: ""
 method: GET
 body: {}
@@ -14,7 +14,7 @@ authentication:
   type: bearer
   token: "{{ token }}"
   prefix: Bearer
-metaSortKey: -1604691439027
+metaSortKey: -1604691775705.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
